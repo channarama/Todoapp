@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="conatainer">
+      <div class="heading">
+        <h2>Todo-App</h2>
+      </div>
+      <div class="inserter">
+        <div>
+          <input type="text" class="textbox" placeholder="Add you'r thinks" />
+        </div>
+        <div>
+          <button class="btn" onclick="btnclick()";>
+            <p class="para">Add</p>
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <!-- Creating a ui-widgets classes that  
+                store other useful classes like  
+                ui-values and ui-labels -->
+        <div class="ui-widgets">
+          <div class="ui-values">85%</div>
+          <div class="ui-labels">completed</div>
+        </div>
+
+        <div class="ui-widgets">
+          <div class="ui-values">55%</div>
+          <div class="ui-labels">Todo</div>
+        </div>
+      </div>
+
+      <div class="body"></div>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
